@@ -1,5 +1,5 @@
 # Copy this to .npmrc in the root of each consuming app repo.
 # Replace YOUR_GITHUB_TOKEN with a personal access token that has read:packages scope.
 # Never commit the real .npmrc — add it to .gitignore.
-@hq-rockies:registry=https://npm.pkg.github.com
+@carterpatwill:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
