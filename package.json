@@ -1,0 +1,28 @@
+{
+  "name": "@hq-rockies/db",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "prisma generate && tsc",
+    "prepublishOnly": "npm run build",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy",
+    "studio": "prisma studio"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.0.0",
+    "prisma": "^7.7.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
