@@ -17,7 +17,9 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@prisma/client": "^7.7.0"
+    "@prisma/adapter-pg": "^7.7.0",
+    "@prisma/client": "^7.7.0",
+    "pg": "^8.20.0"
   },
   "devDependencies": {
     "dotenv": "^17.0.0",
