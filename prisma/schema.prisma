@@ -15,4 +15,5 @@ model rockies_players {
   jersey_number Int
   batting_avg   Decimal? @db.Decimal(4, 3)
   home_runs     Int?
+  weight        Int?
 }
