@@ -13,6 +13,9 @@
     "migrate:deploy": "prisma migrate deploy",
     "studio": "prisma studio"
   },
+  "prisma": {
+    "seed": "ts-node --project prisma/tsconfig.seed.json prisma/seed.ts"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
